@@ -1,0 +1,79 @@
+{% extends '@EasyAdmin/layout.html.twig' %}
+
+{% block main %}
+    <div class="container-xl p-2">
+        <div class="row">
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-3 border-primary-subtle shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-uppercase mb-1 badge text-bg-primary text-wrap">
+                                    tournaments now
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray">{{ countTournamentsNow }}</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-chess fa-2x text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-3 border-success-subtle shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-uppercase mb-1 badge text-bg-success text-wrap">
+                                    active tables
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ countActiveTables }}</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-table fa-2x text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-3 border-secondary-subtle shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-uppercase mb-1 badge text-bg-secondary text-wrap">
+                                    players at the tables
+                                </div>
+                                <div class="row no-gutters align-items-center">
+                                    <div class="col-auto">
+                                        <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">{{ countPlayerTables }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-users fa-2x text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-3 border-warning-subtle shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-uppercase mb-1 badge text-bg-warning text-wrap">
+                                    pending invoices</div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">{{ countPendingInvoices }}</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fa-solid fa-file-invoice-dollar fa-2x text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock main %}

@@ -1,0 +1,38 @@
+framework:
+  workflows:
+    table_state:
+      type: 'state_machine'
+      audit_trail:
+        enabled: true
+      marking_store:
+        type: 'method'
+        property: 'state'
+      supports:
+        - App\Entity\Table
+      initial_marking: init
+      places:
+        - init
+        - sync
+        - prepare
+        - start
+        - run
+        - finish
+      transitions:
+        seatTables:
+          from: init
+          to: sync
+        syncTables:
+          from: sync
+          to: prepare
+        prepareTable:
+          from: prepare
+          to: start
+        startGame:
+          from: start
+          to: run
+        runRound:
+          from: run
+          to: finish
+        detectWinner:
+          from: finish
+          to: init

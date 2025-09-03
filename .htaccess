@@ -1,0 +1,12 @@
+RewriteEngine on
+#RewriteRule ^([A-Za-z0-9_-]+)\.php$  index.php?pagename=$1 [NC,QSA]
+
+#AddDefaultCharset UTF-8
+#PHP_VALUE default_charset utf-8
+
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^(.*)$ /poker2/public/index.php [L,QSA]
+</IfModule>

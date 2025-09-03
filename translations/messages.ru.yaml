@@ -1,0 +1,221 @@
+Кэш столы: "Кэш столы"
+Турниры: "Турниры"
+Мои столы: "Мои столы"
+Любые правила: "Любые правила"
+Малые блайнды: "Малые блайнды"
+Большие блайнды: "Большие блайнды"
+Количество игроков: "Количество игроков"
+Применить: "Применить"
+Сбросить: "Сбросить"
+Все: "Все"
+Дата Начала: "Дата начала"
+Название : "Название"
+Сумма входа: "Сумма входа"
+Призовой фонд: "Призовой фонд"
+Правила игры: "Правила игры"
+Правила: "Правила"
+Блайдны: "Блайнды"
+Валюта: "Валюта"
+Играть: "Играть"
+Игроки: "Игроки"
+Сортировать по: "Сортировать по"
+Имя: "Имя"
+Сортировать: "Сортировать"
+Докупить: "Докупить"
+Скрыть карты: "Скрыть карты"
+Купить: "Купить"
+Закрыть: "Закрыть"
+Пополнить: "Пополнить"
+Баланс будет начислен со следующего круга: "Баланс будет начислен со следующего круга"
+Отмена: "Отмена"
+Вы уверены что хотите поставить все свои фишки : "Вы уверены, что хотите поставить все свои фишки?"
+Да: "Да"
+Нет: "Нет"
+Выберите действие: "Выберите действие"
+Покинуть игру: "Покинуть игру"
+Выйти в лобби: "Выйти в лобби"
+До повышения блайндов: "До повышения блайндов"
+Сесть: "Сесть"
+Вернуться в активное состояние: "Вернуться в активное состояние"
+Журнал: "Журнал"
+Написать сообщение: "Написать сообщение"
+Чат: "Чат"
+Подтвердить: "Подтвердить"
+Выйти: "Выйти"
+Отметьте, чтобы ваш следующий ход автоматически пропустить ход: "Отметьте, чтобы ваш следующий ход автоматически пропустить ход"
+Отметьте, чтобы ваш следующий ход автоматически поддержать ставку: "Отметьте, чтобы ваш следующий ход автоматически поддержать ставку"
+Отметьте, чтобы ваш следующий ход автоматически пропустить ход ИЛИ сбросить карты (если пропуск хода недоступен): "Отметьте, чтобы ваш следующий ход автоматически пропустить ход ИЛИ сбросить карты (если пропуск хода недоступен)"
+Чек/Уравнять: "Чек/Уравнять"
+Фолд: "Фолд"
+Чек: "Чек"
+Уравнять: "Уравнять"
+Ставка: "Ставка"
+Блайнды: "Блайнды"
+Стол: "Стол"
+Тип: "Тип"
+Previous: "Предыдущая"
+Next: "Следующая"
+Something is wrong: "Что-то пошло не так"
+Authentication Error: "Ошибка аутентификации"
+Table not found: "Стол не найден"
+Player not found: "Игрок не найден"
+the field playergamehash not found: "Поле playergamehash не найдено"
+Place is taken: "Место занято"
+Maximum place 10: "Максимум 10 мест"
+Virtual balance more then balance: "Виртуальный баланс больше баланса"
+Incorrect request: "Некорректный запрос"
+History not found: "История не найдена"
+Your bet is small: "Ваша ставка слишком мала"
+Your balance is small: "Ваш баланс слишком мал"
+Your turn is wrong: "Ваш ход неверен"
+Player and Table can't be null: "Игрок и стол не могут быть пустыми"
+The place is taken: "Место занято"
+Your bet exceeds the table bet limit: "Ваша ставка превышает лимит стола"
+Incorrect stack replenishment, your main balance is too low: "Некорректное пополнение стека, ваш основной баланс слишком мал"
+Main user not found: "Основной пользователь не найден"
+You already in game: "Вы уже в игре"
+If you want to change place, please leave the table and back again.: "Если вы хотите сменить место, покиньте стол и вернитесь снова."
+Turn time is over: "Время хода истекло"
+You can not play now, please wait a new round: "Вы не можете играть сейчас, пожалуйста, подождите новый раунд"
+Your message is too long: "Ваше сообщение слишком длинное"
+Your message is empty: "Ваше сообщение пустое"
+You already registered on this tournament.: "Вы уже зарегистрированы на этот турнир."
+You cannot have more than 4 tables: "У вас не может быть больше 4 столов"
+Registration for this tournament has not started yet: "Регистрация на этот турнир ещё не началась"
+Registration for this tournament is over: "Регистрация на этот турнир завершена"
+Tournament has already started: "Турнир уже начался"
+There are no more free places in the tournament: "Свободных мест на турнире больше нет"
+You are participating in the maximum number of tournaments at the same time: "Вы участвуете в максимальном количестве турниров одновременно"
+Can not cancel registration: "Невозможно отменить регистрацию"
+Tournament not found: "Турнир не найден"
+Tournament amount purchase is too big: "Сумма покупки турнира слишком велика"
+Tournament amount purchase is too small: "Сумма покупки турнира слишком мала"
+The purchase time is over: "Время покупки истекло"
+impossible to buy more, not enough players in the tournament: "Невозможно купить больше, недостаточно игроков в турнире"
+impossible to buy more, your balance is too high: "Невозможно купить больше, ваш баланс слишком высок"
+impossible to buy more, limit of buy in: "Невозможно купить больше, достигнут лимит покупки"
+Table type is cash: "Тип стола — наличные"
+No found settings for this table: "Настройки не найдены для этого стола"
+Time is expired, please wait your turn: "Время вышло, дождитесь своей очереди"
+No found current setting: "Не найдена текущая настройка"
+No found tournaments: "Турнир не найден"
+No found current tournament: "Текущий турнир не найден"
+No found tables for this tournament: "Не найдены столы для этого турнира"
+Your balance too big: 'Ваш баланс слишком большой'
+You are not a loser: "Вы не проиграли"
+До начала: "До начала"
+Статус: "Статус"
+Настройки игры: Настройки игры
+Tournament has started: "Турнир уже начался"
+Tournament will start in: "Турнир начнётся в"
+Tournament has been ended: "Турнир закончился"
+message.player_sit: "Игрок {login}: Занял {place} место за столом."
+You can't call, short stack: "Вы не можете сделать кол, ваш стэк слишком мал"
+Your current bet is not enough for a check: "Вашей текущей ставки недостаточно для чека"
+Bet too big for your stack: "Ставка слишком велика для вашего стэка"
+tournament.buy_in_type_name:
+  Free: "Бесплатный"
+  Paid: "Платный"
+tournament.rule_name:
+  TexasHoldem: "Техасский холдэм"
+  OmahaHigh: "Омаха Хай"
+tournament.status:
+  Pending: "Ожидание"
+  Started: "Старт"
+  Finished: "Финиш"
+  Break: "Перерыв"
+  Canceled: "Отменен"
+  Sync: "Синхронизация"
+place_mapping:
+  1st: "первое"
+  2nd: "второе"
+  3rd: "третье"
+  4th: "четвёртое"
+  5th: "пятое"
+  6th: "шестое"
+  7th: "седьмое"
+  8th: "восьмое"
+  9th: "девятое"
+  10th: "десятое"
+message.bet_result: "Игрок {login}: Сделал {betType} {bet_amount}."
+bet_type.smallBlind: "Малый блайнд"
+bet_type.bigBlind: "Большой блайнд"
+bet_type.fold: "Сброс"
+bet_type.check: "Чек"
+bet_type.call: "Уравнять"
+bet_type.bet: "Ставку"
+bet_type.raise: "Повышение"
+bet_type.allin: "Ва-банк"
+message.chips_purchase: "Игрок {login}: Купил {chips} фишек."
+message.leave_table_result: "Игрок {login}: Покинул стол с {place} места."
+time_until_start: 'Через %minutes% минут'
+place_mapping_leave:
+  1st: "первого"
+  2nd: "второго"
+  3rd: "третьего"
+  4th: "четвёртого"
+  5th: "пятого"
+  6th: "шестого"
+  7th: "седьмого"
+  8th: "восьмого"
+  9th: "девятого"
+  10th: "десятого"
+message.bank_formed: "Формируется банк на сумму {sum}. Связанные игроки: {users}."
+message.round_started: "Начался {round}. Место дилера: {dealerPlace}. Карты на столе: {tableCards}. Большой блайнд: {bigBlind}. Малый блайнд: {smallBlind}."
+rounds:
+  pending: "Подготовительный Раунд"
+  formatTable: "Формирование столов Раунд"
+suits:
+  diamond: "Бубны"
+  club: "Трефы"
+  heart: "Черви"
+  spade: "Пики"
+
+ранг:
+  Ace: "Туз"
+  King: "Король"
+  Queen: "Дама"
+  Jack: "Валет"
+  Ten: "Десять"
+  Nine: "Девять"
+  Eight: "Восьмь"
+  Seven: "Семь"
+  Six: "Шесть"
+  Five: "Пять"
+  Four: "Четыре"
+  Three: "Три"
+  Two: "Два"
+
+message:
+  player_won: "Игрок {login} выиграл. Сумма: {sum}."
+  player_won_combination: "Игрок {login} выиграл. Сумма: {sum}. Комбинация карт: {combinationName} {cards}."
+
+email:
+  tournament:
+    result:
+      subject: 'Результаты турнира по покеру'
+      message: 'Вы закончили на {rank} месте в турнире {tournament}. Мы желаем вам удачи в следующих турнирах.'
+    unregistered:
+      subject: 'Вы отказались от участия в турнире по покеру'
+      message: 'Вы отказались от участия в турнире: {tournament}'
+    started:
+      subject: 'Турнир по покеру начался'
+      message: 'Турнир: {tournament} уже начался'
+    registered:
+      subject: 'Регистрация в турнире покера'
+      message: 'Вы успешно зарегистрировались в турнире: {tournament}'
+    ended:
+      subject: '{tournament} Турнир по покеру окончен'
+      message: 'Турнир: {tournament} окончен'
+    canceled:
+      subject: 'Турнир по покеру отменен'
+      message: 'Турнир {tournament} отменен из-за недостаточного количества игроков.'
+
+
+
+
+
+
+
+
+

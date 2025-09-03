@@ -1,0 +1,219 @@
+Кэш столы: "Cash Tables"
+Турниры: "Tournaments"
+Мои столы: "My tables"
+Любые правила: "Any rules"
+Малые блайнды: "Small Blinds"
+Большие блайнды: "Big Blinds"
+Количество игроков: "Number of players"
+Применить: "Apply"
+Сбросить: "Reset"
+Все: "All"
+Дата Начала: "Date Start"
+Название : "Title"
+Сумма входа: "Entry sum"
+Призовой фонд: "Prize pool"
+Правила игры: "Game rules"
+Правила: "Rules"
+Блайдны: "Blinds"
+Валюта: "Currency"
+Играть: "Play"
+Игроки: "Players"
+Сортировать по: "Sort by"
+Имя: "Name"
+Сортировать: "Sort"
+Докупить: "Buy in"
+Скрыть карты: "Hide cards"
+Купить: "Buy"
+Закрыть: "Close"
+Пополнить: "Refill"
+Баланс будет начислен со следующего круга: "The balance will be accrued from the next round"
+Отмена: "Cancel"
+Вы уверены что хотите поставить все свои фишки : "Are you sure you want to put all your chips"
+Да: "Yes"
+Нет: "No"
+Выберите действие: "Select an action"
+Покинуть игру: "Quit the game"
+Выйти в лобби: "Go to lobby"
+До повышения блайндов: "Before the blinds went up"
+Сесть: "Seat"
+Вернуться в активное состояние: "Return to active state"
+Журнал: "Log"
+Написать сообщение: "Write message"
+Чат: "Chat"
+Подтвердить: "Confirm"
+Выйти: "Leave"
+Отметьте, чтобы ваш следующий ход автоматически пропустить ход: "Check to have your next move automatically skip a turn"
+Отметьте, чтобы ваш следующий ход автоматически поддержать ставку: "Check to have your next move automatically support the bet"
+Отметьте, чтобы ваш следующий ход автоматически пропустить ход ИЛИ сбросить карты (если пропуск хода недоступен): "Check to have your next turn automatically skip OR discard (if skip is not available)"
+Чек/Уравнять: "Check/Call"
+Фолд: "Fold"
+Чек: "Check"
+Уравнять: "Call"
+Ставка: "Bet"
+Блайнды: "Blinds"
+Стол: "Table"
+Тип: "Type"
+Previous: "Previous"
+Next: "Next"
+Something is wrong: "Something is wrong"
+Authentication Error: "Authentication Error"
+Table not found: "Table not found"
+Player not found: "Player not found"
+the field playergamehash not found: "the field playergamehash not found"
+Place is taken: "Place is taken"
+Maximum place 10: "Maximum place 10"
+Virtual balance more then balance: "Virtual balance more then balance"
+Incorrect request: "Incorrect request"
+History not found: "History not found"
+Your bet is small: "Your bet is small"
+Your balance is small: "Your balance is small"
+Your turn is wrong: "Your turn is wrong"
+Player and Table can't be null: "Player and Table can't be null"
+The place is taken: "The place is taken"
+Your bet exceeds the table bet limit: "Your bet exceeds the table bet limit"
+Incorrect stack replenishment, your main balance is too low: "Incorrect stack replenishment, your main balance is too low"
+Main user not found: "Main user not found"
+You already in game: "You already in game"
+If you want to change place, please leave the table and back again.: "If you want to change place, please leave the table and back again."
+Time is expired, please wait your turn: "Time is expired, please wait your turn"
+You can not play now, please wait a new round: "You can not play now, please wait a new round"
+Your message is too long: "Your message is too long"
+Your message is empty: "Your message is empty"
+You already registered on this tournament.: "You already registered on this tournament."
+You cannot have more than 4 tables: "You cannot have more than 4 tables"
+Registration for this tournament has not started yet: "Registration for this tournament has not started yet"
+Registration for this tournament is over: "Registration for this tournament is over"
+Tournament has already started: "Tournament has already started"
+There are no more free places in the tournament: "There are no more free places in the tournament"
+You are participating in the maximum number of tournaments at the same time: "You are participating in the maximum number of tournaments at the same time"
+Can not cancel registration: "Can not cancel registration"
+Tournament not found: "Tournament not found"
+Tournament amount purchase is too big: "Tournament amount purchase is too big"
+Tournament amount purchase is too small: "Tournament amount purchase is too small"
+The purchase time is over: "The purchase time is over"
+impossible to buy more, not enough players in the tournament: "impossible to buy more, not enough players in the tournament"
+impossible to buy more, your balance is too high: "impossible to buy more, your balance is too high"
+impossible to buy more, limit of buy in: "impossible to buy more, limit of buy in"
+Table type is cash: "Table type is cash"
+No found settings for this table: "No found settings"
+No found current setting: "No found current setting"
+No found tournaments: "No found tournaments"
+No found current tournament: "No found current tournament"
+No found tables for this tournament: "No found tables for this tournament"
+До начала: "Before the start"
+Статус: "Status"
+Настройки игры: Game Settings
+Tournament has started: "Tournament has started"
+Tournament will start in: "Tournament will start in"
+Tournament has been ended: "Tournament has been ended"
+message.player_sit: "Player {login}: Took {place} place at the table."
+time_until_start: 'In %minutes% minutes'
+You can't call, short stack: "You can't call, short stack"
+Your current bet is not enough for a check : "Your current bet is not enough for a check"
+Bet too big for your stack : "Bet too big for your stack"
+Your balance too big: 'Your balance too big'
+You are not a loser: "You didn't lose"
+place_mapping:
+  1st: "1st"
+  2nd: "2nd"
+  3rd: "3rd"
+  4th: "4th"
+  5th: "5th"
+  6th: "6th"
+  7th: "7th"
+  8th: "8th"
+  9th: "9th"
+  10th: "10th"
+message.bet_result: "Player {login}: Made {betType} {bet_amount}."
+bet_type.smallBlind: "Small Blind"
+bet_type.bigBlind: "Big Blind"
+bet_type.fold: "Fold"
+bet_type.check: "Check"
+bet_type.call: "Call"
+bet_type.bet: "Bet"
+bet_type.raise: "Raise"
+bet_type.allin: "All In"
+message.chips_purchase: "Player {login}: Bought {chips} chips."
+message.leave_table_result: "Player {login}: Left the table from {place} place."
+tournament.buy_in_type_name:
+  Free: "Free"
+  Paid: "Paid"
+tournament.rule_name:
+  TexasHoldem: "Texas Holdem"
+  OmahaHigh: "Omaha High"
+tournament.status:
+  Pending: "Pending"
+  Started: "Started"
+  Finished: "Finished"
+  Break: "Break"
+  Canceled: "Canceled"
+  Sync: "Sync"
+place_mapping_leave:
+  1st: "1st"
+  2nd: "2nd"
+  3rd: "3rd"
+  4th: "4th"
+  5th: "5th"
+  6th: "6th"
+  7th: "7th"
+  8th: "8th"
+  9th: "9th"
+  10th: "10th"
+message.bank_formed: "A bank has been formed for the amount {sum}. Related players: {users}."
+message.round_started: "{round} round has been started. Dealer place: {dealerPlace}. Table cards: {tableCards}. Big blind: {bigBlind}. Small blind: {smallBlind}."
+rounds:
+  pending: "Pending"
+  formatTable: "Format Table"
+suits:
+  diamond: "Diamonds"
+  club: "Clubs"
+  heart: "Hearts"
+  spade: "Spades"
+
+ranks:
+  Ace: "Ace"
+  King: "King"
+  Queen: "Queen"
+  Jack: "Jack"
+  Ten: "Ten"
+  Nine: "Nine"
+  Eight: "Eight"
+  Seven: "Seven"
+  Six: "Six"
+  Five: "Five"
+  Four: "Four"
+  Three: "Three"
+  Two: "Two"
+
+message:
+  player_won: "Player {login} won. Sum: {sum}."
+  player_won_combination: "Player {login} won. Sum: {sum}. Cards combination: {combinationName} {cards}."
+
+email:
+  tournament:
+    result:
+      subject: 'Poker Tournament Result'
+      message: 'You finished in {rank} place in the Tournament {tournament}. We wish you good luck in future tournaments.'
+    unregistered:
+      subject: 'Unregistered from poker Tournament'
+      message: 'You are unregistered from Tournament: {tournament}'
+    started:
+      subject: 'Poker Tournament Started'
+      message: 'Tournament: {tournament} is already started'
+    registered:
+      subject: 'Poker Tournament Registered'
+      message: 'You are successfully registered in Tournament: {tournament}'
+    ended:
+      subject: '{tournament} Poker Tournament has been ended'
+      message: 'The tournament: {tournament} is ended'
+    canceled:
+      subject: 'Poker Tournament canceled'
+      message: 'The tournament {tournament} has been canceled due to insufficient number of players.'
+
+
+
+
+
+
+
+

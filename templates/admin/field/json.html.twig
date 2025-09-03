@@ -1,0 +1,49 @@
+{% from _self import recursiveJson %}
+
+<ul class="list-group">
+    {% if field.value is iterable %}
+        {% for k, data in field.value %}
+            {{ recursiveJson(data) }}
+        {% endfor %}
+    {% else %}
+        {{ recursiveJson(field.value) }}
+    {% endif %}
+</ul>
+
+{% macro recursiveJson(data) %}
+    {% import _self as self %}
+
+    {% if data is iterable %}
+        {% for key, item in data %}
+            {% if item is iterable %}
+                <ul>
+                    {{ self.recursiveJson(item) }}
+                </ul>
+            {% else %}
+                <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <span class="">{{ key }} : {{ item }}</span>
+                    </div>
+                </li>
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        {% for key, item in data.toArray() %}
+            {% if item is iterable %}
+                <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <span class="badge text-bg-dark">{{ key }}</span>
+                    </div>
+                </li>
+
+                {{ self.recursiveJson(item) }}
+            {% else %}
+                <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <span class="">{{ key }} : {{ item }}</span>
+                    </div>
+                </li>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endmacro %}

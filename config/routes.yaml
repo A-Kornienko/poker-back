@@ -1,0 +1,10 @@
+poker2:
+    prefix: poker2
+    path: /
+
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+    prefix: poker2
