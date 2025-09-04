@@ -42,7 +42,7 @@ class User
         "lastname"           => null,
         "birthday"           => null,
         "ref_id"             => null,
-        "http_referer"       => "poker.gambling-dev.pro/",
+        "http_referer"       => "/",
         "game_token"         => null,
         "comment"            => null,
         "action_token"       => null,
