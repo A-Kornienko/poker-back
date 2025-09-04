@@ -1,6 +1,6 @@
 ## Install Poker app
 1. Create folder for your project, folder name should be `poker2`.
-2. Run `git clone git@github.com:GamblingSoft/poker.git` into directory `poker2`.
+2. Run `git clone git@github.com:A-Kornienko/poker-back.git` into directory `poker2`.
 3. Go out of the directory `poker2`
 4. Install laradock from this manual https://laradock.io/getting-started/ use setup for multiple projects configuration.
 5. Directory `laradock` should be located near the `poker2`, on the same level.
