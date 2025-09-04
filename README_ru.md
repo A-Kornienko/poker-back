@@ -1,5 +1,3 @@
-# Gambling Soft
-
 ## Установка Покера.
 1. Создайте новую папку для проекта, имя папки должно быть `poker2`.
 2. Запустите `git clone git@github.com:GamblingSoft/poker.git ./` внутри `poker2`.
